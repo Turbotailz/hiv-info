@@ -142,4 +142,4 @@ cta:
     - label: Buy now
       size: xl
       color: black
-      to: /pricing
+      to: /what-is-hiv
