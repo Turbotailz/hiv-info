@@ -4,14 +4,9 @@ import type { NavItem } from '@nuxt/content'
 const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 const children = computed(() => navigation.value.filter(item => !['/blog', '/'].includes(item._path)) ?? [])
 
-const menuLinks = [
-  {
-    label: 'Learn',
-    to: '/what-is-hiv',
-    children: mapContentNavigation(children.value),
-  },
+console.log( mapContentNavigation(children.value))
 
-]
+const menuLinks = mapContentNavigation(children.value)
 </script>
 
 <template>
