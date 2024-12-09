@@ -16,9 +16,15 @@ defineProps({
 </script>
 
 <template>
-  <div class="w-full h-full flex flex-col justify-center text-center bg-slate-900 p-8">
-    <div class="relative">
-      <h1 class="text-8xl mb-4 text-white">
+  <div class="w-full h-full flex flex-row bg-stone-900 px-8 py-16">
+    <div class="flex w-2/12 mr-4">
+      <img src="/android-chrome-512x512.png" width="200" height="200">
+    </div>
+    <div class="flex w-10/12 flex-col">
+      <p class="text-4xl mt-0 text-red-500 uppercase font-bold">
+        Red Ribbon
+      </p>
+      <h1 class="text-8xl m-0 text-white">
         {{ title }}
       </h1>
       <p class="text-5xl text-gray-200 leading-tight">

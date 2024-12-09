@@ -24,7 +24,7 @@ useSeoMeta({
   ogDescription: page.value.description
 })
 
-defineOgImageComponent('Saas')
+defineOgImageComponent('Main')
 
 const headline = computed(() => findPageHeadline(page.value!))
 </script>
@@ -73,5 +73,4 @@ const headline = computed(() => findPageHeadline(page.value!))
       </UPage>
     </UPage>
   </UContainer>
-
 </template>

@@ -92,7 +92,7 @@ function onSubmit() {
 
     <template #left>
       <p class="text-gray-500 dark:text-gray-400 text-sm">
-        Copyright © {{ new Date().getFullYear() }}. All rights reserved.
+        Copyright © {{ new Date().getFullYear() }}. All rights reserved. Site built by Sam Goodger.
       </p>
     </template>
 
@@ -100,7 +100,7 @@ function onSubmit() {
       <UColorModeButton size="sm" />
 
       <UButton
-        to="https://github.com/nuxt-ui-pro/saas"
+        to="https://github.com/turbotailz/hiv-info"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"

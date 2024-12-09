@@ -1,11 +1,11 @@
-title: HIV Info
-description: Get the facts about HIV, learn about prevention strategies, and find support resources. We're here to empower you with knowledge and connect you with care.
+title: Red Ribbon
+description: Get the facts about HIV, learn about prevention strategies, and find support resources.
 navigation: true
 hero:
-  title: 'Information, Prevention, and Support'
+  title: 'Information, Prevention, and Support for HIV/AIDS'
   description: Discover comprehensive and reliable information about HIV/AIDS, from prevention to treatment and living a full life. Find support resources and connect with others.
   links:
-    - label: Learn More
+    - label: What is HIV?
       to: '/what-is-hiv'
       size: xl
       color: black

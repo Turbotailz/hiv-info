@@ -18,7 +18,7 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - HIV Info',
+  titleTemplate: '%s - Red Ribbon',
   ogImage: 'https://hiv-info.pages.dev/social-card.png',
   twitterImage: 'https://hiv-info.pages.dev/social-card.png',
   twitterCard: 'summary_large_image'

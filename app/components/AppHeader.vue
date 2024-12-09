@@ -16,7 +16,6 @@ const menuLinks = mapContentNavigation(children.value)
         name="i-fa6-solid:ribbon"
         class="w-7 h-7 text-primary"
       />
-      HIV Info
     </template>
 
     <template #right>
